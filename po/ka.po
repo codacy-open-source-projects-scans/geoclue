@@ -1,0 +1,116 @@
+# Georgian translation for geoclue-2.
+# Copyright (C) 2026 geoclue-2's authors
+# This file is distributed under the same license as the geoclue-2.0 package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: geoclue-2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-05 16:11+0100\n"
+"PO-Revision-Date: 2026-01-14 07:47+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: demo/agent.c:39 src/gclue-main.c:48
+msgid "Display version number"
+msgstr "ვერსიის ინფორმაციის ჩვენება"
+
+#: demo/agent.c:116 src/gclue-main.c:170
+msgid "GeoClue"
+msgstr "GeoClue"
+
+#: demo/gclue-service-agent.c:160
+#, c-format
+msgid "Geolocation service in use\n"
+msgstr "გეოლოკაციის სერვისი გამოიყენება\n"
+
+#: demo/gclue-service-agent.c:162
+#, c-format
+msgid "Geolocation service not in use\n"
+msgstr "გეოლოკაციის სერვისი არ გამოიყენება\n"
+
+#: demo/gclue-service-agent.c:354
+#, c-format
+msgid "Allow '%s' to access your location information?"
+msgstr "მივცეთ უფლება %s-ს, მიიღოს ინფორმაცია თქვენი მდებარეობის შესახებ?"
+
+#: demo/gclue-service-agent.c:363
+msgid "Geolocation"
+msgstr "გეოლოკაცია"
+
+#: demo/gclue-service-agent.c:373
+msgid "Yes"
+msgstr "დიახ"
+
+#: demo/gclue-service-agent.c:379
+msgid "No"
+msgstr "არა"
+
+#: demo/where-am-i.c:42
+msgid "Exit after T seconds. Default: 30"
+msgstr "გასვლა T წამის შემდეგ. ნაგულისხმევი: 30"
+
+#: demo/where-am-i.c:49
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"მდებარეობის განახლების გადაცემა, მხოლოდ T წამის შემდეგ. ნაგულისხმევი: 0 "
+"(ახალი მდებარეობის გადაცემა დაყოვნების გარეშე)"
+
+#: demo/where-am-i.c:57
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"მოთხოვნის სიზუსტის დონე A. ქვეყანა = 1, ქალაქი = 4, ახლომახლოს = 5, ქუჩა = "
+"6, ზუსტი = 8."
+
+#: demo/geoclue-demo-agent.desktop.in.in:2
+msgid "Geoclue Demo agent"
+msgstr "Geoclue-ის დემო აგენტი"
+
+#: demo/geoclue-demo-agent.desktop.in.in:3
+msgid "Demo geoclue agent"
+msgstr "Geoclue-ის სადემონსტრაციო აგენტი"
+
+#: demo/geoclue-demo-agent.desktop.in.in:4
+#: demo/geoclue-where-am-i.desktop.in.in:5
+msgid "geolocation;"
+msgstr "geolocation;გეოლოკაცია;"
+
+#: demo/geoclue-where-am-i.desktop.in.in:2
+msgid "Where am I?"
+msgstr "სად ვარ?"
+
+#: demo/geoclue-where-am-i.desktop.in.in:3
+msgid "Demo geolocation application"
+msgstr "გეოლოკაციის სადემონსტრაციო აპლიკაცია"
+
+#: demo/geoclue-where-am-i.desktop.in.in:4
+msgid "Find your current location"
+msgstr "იპოვეთ თქვენი მიმდინარე მდებარეობა"
+
+#: src/gclue-main.c:55
+msgid "Exit after T seconds of inactivity, 0 for never. Default: 60"
+msgstr "გასვლა T წამის უქმეობის შემდეგ. 0 - არ გავა. ნაგულისხმევი: 60"
+
+#: src/gclue-main.c:62
+msgid "Enable submission of network data"
+msgstr "ქსელის მონაცემების გადაცემის ჩართვა"
+
+#: src/gclue-main.c:69
+msgid "Nickname to submit network data under (empty or 2 to 32 characters)"
+msgstr ""
+"მეტსახელი, რომლითაც ქსელის მონაცემების გადაცემა ხდება (ცარიელი, ან 2-32 "
+"სიმბოლო)"
+
+#: src/gclue-main.c:76
+msgid "Path to nmea UNIX socket"
+msgstr "ბილიკი nmea-ის UNIX სოკეტამდე"
