@@ -9,6 +9,8 @@ gclue_micro_version = ver_arr[2]
 
 gclue_api_version='2.0'
 
+gettext_domain = 'geoclue-' + gclue_api_version
+
 datadir = join_paths(get_option('prefix'), get_option('datadir'))
 includedir = join_paths(get_option('prefix'), get_option('includedir'))
 libexecdir = join_paths(get_option('prefix'), get_option('libexecdir'))
@@ -22,7 +24,7 @@ conf = configuration_data()
 conf.set_quoted('VERSION', gclue_version)
 conf.set_quoted('PACKAGE_VERSION', gclue_version)
 conf.set_quoted('PACKAGE_NAME', 'geoclue')
-conf.set_quoted('GETTEXT_PACKAGE', 'geoclue')
+conf.set_quoted('GETTEXT_PACKAGE', gettext_domain)
 conf.set_quoted('PACKAGE_TARNAME', 'geoclue')
 conf.set_quoted('PACKAGE_STRING', 'geoclue ' + gclue_version)
 conf.set_quoted('PACKAGE_URL', 'https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home')

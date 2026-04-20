@@ -1,0 +1,113 @@
+# Occitan translation for geoclue-2.
+# Copyright (C) 2026 geoclue-2's authors
+# This file is distributed under the same license as the geoclue-2.0 package.
+# Quentin PAGÈS 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: geoclue-2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-05 16:11+0100\n"
+"PO-Revision-Date: 2026-04-16 20:19+0200\n"
+"Last-Translator: Quentin PAGÈS\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: demo/agent.c:39 src/gclue-main.c:48
+msgid "Display version number"
+msgstr "Afichar lo numèro de version"
+
+#: demo/agent.c:116 src/gclue-main.c:170
+msgid "GeoClue"
+msgstr "GeoClue"
+
+#: demo/gclue-service-agent.c:160
+#, c-format
+msgid "Geolocation service in use\n"
+msgstr "Lo servici de geolocalizacion es utilizat\n"
+
+#: demo/gclue-service-agent.c:162
+#, c-format
+msgid "Geolocation service not in use\n"
+msgstr "Lo servici de geolocalizacion es pas utilizat\n"
+
+#: demo/gclue-service-agent.c:354
+#, c-format
+msgid "Allow '%s' to access your location information?"
+msgstr "Autorizar « %s » a accedir a vòstras informacions de localizacion ?"
+
+#: demo/gclue-service-agent.c:363
+msgid "Geolocation"
+msgstr "Geolocalizacion"
+
+#: demo/gclue-service-agent.c:373
+msgid "Yes"
+msgstr "Òc"
+
+#: demo/gclue-service-agent.c:379
+msgid "No"
+msgstr "Non"
+
+#: demo/where-am-i.c:42
+msgid "Exit after T seconds. Default: 30"
+msgstr "Quitar aprèp T segondas. Per defaut : 30"
+
+#: demo/where-am-i.c:49
+msgid ""
+"Only report location update after T seconds. Default: 0 (report new location "
+"without any delay)"
+msgstr ""
+"Senhalar la mesa a jorn de la posicion solament aprèp T segondas. Per "
+"defaut : 0 (senhalar la novèla posicion sens cap de relambi)"
+
+#: demo/where-am-i.c:57
+msgid ""
+"Request accuracy level A. Country = 1, City = 4, Neighborhood = 5, Street = "
+"6, Exact = 8."
+msgstr ""
+"Demandar lo nivèl de precision A. País = 1, vila = 4, barri = 5, carrièra = "
+"6, exacta = 8."
+
+#: demo/geoclue-demo-agent.desktop.in.in:2
+msgid "Geoclue Demo agent"
+msgstr "Agent de demonstracion geoclue"
+
+#: demo/geoclue-demo-agent.desktop.in.in:3
+msgid "Demo geoclue agent"
+msgstr "Agent de demostracion geoclue"
+
+#: demo/geoclue-demo-agent.desktop.in.in:4
+#: demo/geoclue-where-am-i.desktop.in.in:5
+msgid "geolocation;"
+msgstr "geolocalizacion;"
+
+#: demo/geoclue-where-am-i.desktop.in.in:2
+msgid "Where am I?"
+msgstr "Ont soi ?"
+
+#: demo/geoclue-where-am-i.desktop.in.in:3
+msgid "Demo geolocation application"
+msgstr "Aplicacion de demostracion de geolocalizacion"
+
+#: demo/geoclue-where-am-i.desktop.in.in:4
+msgid "Find your current location"
+msgstr "Trobatz vòstra posicion actuala"
+
+#: src/gclue-main.c:55
+msgid "Exit after T seconds of inactivity, 0 for never. Default: 60"
+msgstr "Quitar aprèp T segondas d'inactivitat, 0 per pas jamai. Defaut : 5"
+
+#: src/gclue-main.c:62
+msgid "Enable submission of network data"
+msgstr "Activar lo mandadís de donadas ret"
+
+#: src/gclue-main.c:69
+msgid "Nickname to submit network data under (empty or 2 to 32 characters)"
+msgstr "Pseudonim per enviar las donadas de la ret (2-32 caractèrs)"
+
+#: src/gclue-main.c:76
+msgid "Path to nmea UNIX socket"
+msgstr "Emplaçament cap al connector UNIX nmea"

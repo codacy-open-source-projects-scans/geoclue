@@ -22,9 +22,9 @@
   sudo apt build-dep geoclue-2.0
   ```
 
-- For a full-fledged build, you also want ModemManager (mm-glib), 
-  avahi-client and avahi-glib. You want the latter two if you want to use the 
-  [geoclue-share app](https://wiki.gnome.org/Apps/GeoclueShare). You also need 
+- For a full-fledged build, you also want ModemManager (mm-glib),
+  avahi-client and avahi-glib. You want the latter two if you want to use the
+  [geoclue-share app](https://wiki.gnome.org/Apps/GeoclueShare). You also need
   libnotify if you want to build the demo agent.
 
   Fedora:
@@ -81,3 +81,32 @@
   ```
 
   It will give your current location.
+
+## Translating Geoclue
+
+The demo agent, demo application (`where-am-i`) and the `--help` output of the
+geoclue server contain translatable strings.
+
+You can create a template `po/geoclue-2.0.pot` file, update the existing `.po`
+translation files and build the binary translation `.mo` files by running these
+commands on a configured project, respectively:
+
+```shell
+meson compile -C build geoclue-2.0-pot
+meson compile -C build geoclue-2.0-update-po
+meson compile -C build geoclue-2.0-gmo
+```
+
+See the documentation of meson i18n module for details.
+
+When starting a new translation, rename the `geoclue-2.0.pot` file to the
+desired language code (e.g. `en.po`) and start translating. Remember to add the
+language code to `po/LINGUAS` when done.
+
+You can test the translations after building and installing by running one of
+the binaries with the `LANG` environment variable set to the full language code
+of the desired language:
+
+```shell
+LANG=ka_GE.UTF8 /usr/libexec/geoclue-2.0/demos/where-am-i -h
+```
